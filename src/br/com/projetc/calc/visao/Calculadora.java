@@ -6,23 +6,22 @@ import java.awt.Dimension;
 
 import javax.swing.JFrame;
 
+
+
 @SuppressWarnings("serial")
 public class Calculadora extends JFrame {
 
 	public Calculadora() {
 		
 		orgazinarLayout();
-		
+	
+	    
 		setTitle("calculadora");
 		setSize(232, 322);
-	
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setVisible(true);
 		setLocationRelativeTo(null);
 		
-
-        
-	
 		
 	}
 	
@@ -42,7 +41,7 @@ public class Calculadora extends JFrame {
 		
 		
 	}
-
+//execução do programa 
 	public static void main(String[] args) {
 		new Calculadora();
 	}
